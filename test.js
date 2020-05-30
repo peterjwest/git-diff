@@ -26,9 +26,12 @@ function first(a, b) {
 }
 
 // Split long lines into multiple lines
-const looong = [[1,2],[3,4],[5,6]].map((x) => x.map((y) => y + Math.random()));
+const looong = [[1,2],[3,4],[5,6]].map((x) => {
+    return x.map((y) => y + Math.random());
+});
 
-const longString = "https://github.com/peterjwest/git-diff/blob/master/README.md";
+const longString = "https://github.com/peterjwest/" +
+    "git-diff/blob/master/README.md";
 
 // Split long line, with only whitespace changes
 if (Math.random() + 20 >= Math.random() * 20) { return [1,2,3].map((x) => x + 1); }
