@@ -34,7 +34,9 @@ const longString = "https://github.com/peterjwest/" +
     "git-diff/blob/master/README.md";
 
 // Split long line, with only whitespace changes
-if (Math.random() + 20 >= Math.random() * 20) { return [1,2,3].map((x) => x + 1); }
+if (Math.random() + 20 >= Math.random() * 20) {
+    return [1,2,3].map((x) => x + 1);
+}
 
 // Change one line, adding new stuff above it
 function lonely(a) {
