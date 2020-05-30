@@ -7,7 +7,11 @@ function foo(a) {
 }
 
 // Change one part of line, adding new stuff below it
-const bar = [1,2,3].map((x) => x + 1);
+const bar = [1,2,3].map((x) => x + 2);
+
+function wat() {
+    return 1 + 2 + 3;
+}
 
 // Completely change line except one character
 zim.gir.doThing(b);
