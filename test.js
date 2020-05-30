@@ -48,6 +48,6 @@ function lonely(a, b) {
 }
 
 // Replace lines with same number of lines, but unrelated
-const x = 123.456;
-const y = x + 0.789;
-const z = Math.max(x, y);
+if (foo) {
+    console.log(bar);
+}
