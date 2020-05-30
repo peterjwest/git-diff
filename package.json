@@ -1,0 +1,10 @@
+{
+  "name": "git-diff",
+  "version": "0.0.1",
+  "repository": "git@github.com:peterjwest/git-diff.git",
+  "author": "Peter West <peterjwest3@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jsdiff": "^1.1.1"
+  }
+}
