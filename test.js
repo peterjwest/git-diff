@@ -11,12 +11,12 @@ const bar = [1,2,3].map((x) => x + 1);
 zim.gir.doThing(b);
 
 // Move one thing above another
-function first(a, b) {
-    return a + b;
-}
-
 function second(x, y) {
     return x - y;
+}
+
+function first(a, b) {
+    return a + b;
 }
 
 // Split long lines into multiple lines
