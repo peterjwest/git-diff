@@ -4,7 +4,9 @@
   "repository": "git@github.com:peterjwest/git-diff.git",
   "author": "Peter West <peterjwest3@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
-    "jsdiff": "^1.1.1"
+    "colors": "^1.4.0",
+    "diff": "^4.0.2"
   }
 }
