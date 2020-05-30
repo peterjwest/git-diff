@@ -1,7 +1,9 @@
 // Nest body in conditional
 function foo(a) {
-    const x = 1;
-    return a + x;
+    if (Math.random() > 0.5) {
+        const x = 1;
+        return a + x;
+    }
 }
 
 // Change one part of line, adding new stuff below it
