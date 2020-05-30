@@ -39,7 +39,11 @@ if (Math.random() + 20 >= Math.random() * 20) {
 }
 
 // Change one line, adding new stuff above it
-function lonely(a) {
+function another(x) {
+    return -x;
+}
+
+function lonely(a, b) {
     return a;
 }
 
