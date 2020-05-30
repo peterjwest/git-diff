@@ -14,7 +14,7 @@ function wat() {
 }
 
 // Completely change line except one character
-zim.gir.doThing(b);
+foo(x);
 
 // Move one thing above another
 function second(x, y) {
